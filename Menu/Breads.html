@@ -1,0 +1,112 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Breads</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="cakes.css">
+    <link rel="stylesheet" href="products.css">
+    <link rel="stylesheet" href="each_products.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.1/css/all.min.css">
+    <link rel="stylesheet" href="Cart/styles.css">
+</head>
+<body>
+    <header class="header">
+        <a href="" class="logo"><img src="images/logo.png" alt="Logo"/></a>
+        <nav class="navbar">
+            <a href="/homepage/HomePage.html">home</a>
+            <a href="/Menu/menu.html">menu</a>
+            <a href="/About Us/aboutus.html">about us</a>
+            <a href="/Contact Us/contact.html">contact us</a>
+          
+            
+        </nav>
+        <div class="icons">
+           
+            <div class="cart-icon" id="cart-icon" onclick="redirectToCart()">
+                <i class="fa-solid fa-cart-shopping"></i>
+                <span id="cart-quantity">0</span>
+            </div>
+           
+        </div>
+        
+    </header>
+
+    <div class="second_container">
+        <h1>BREADS</h1>
+        <p>This is where it all started! Our classic cookies are what put Sweet Haven
+             on the map. Perfectly paired with a cold glass of milk or enjoyed 
+             straight from the jar.
+        </p>
+    </div>
+
+    <div class="main-third-container">
+        <div class="products-third-container">
+            <p class="title">Products</p>
+            <ul class="lists">
+                <li class="each-items"><a href="brownies.html"><i class="fa-solid fa-arrow-right"></i>Brownies</a></li>
+                <li class="each-items"><a href="breads.html"><i class="fa-solid fa-arrow-right"></i>Breads</a></li>
+                <li class="each-items"><a href="croissants.html"><i class="fa-solid fa-arrow-right"></i>Croissants & Danishes</a></li>
+                <li class="each-items"><a href="pastries.html"><i class="fa-solid fa-arrow-right"></i>Pastries</a></li>
+                <li class="each-items"><a href="beverages.html"><i class="fa-solid fa-arrow-right"></i>Beverages</a></li>
+                <li class="each-items"><a href="sandwitches.html"><i class="fa-solid fa-arrow-right"></i>Sandwiches & Savories</a></li>
+                <li class="each-items"><a href="cakes.html"><i class="fa-solid fa-arrow-right"></i>Cakes</a></li>
+                <li class="each-items"><a href="cheesecakes.html"><i class="fa-solid fa-arrow-right"></i>Cheesecakes</a></li>
+                <li class="each-items"><a href="tea_cakes.html"><i class="fa-solid fa-arrow-right"></i>Tea Cakes</a></li>
+                <li class="each-items"><a href="mango_specials.html"><i class="fa-solid fa-arrow-right"></i>Mango Specials</a></li>
+                <li class="each-items"><a href="macaroons.html"><i class="fa-solid fa-arrow-right"></i>Macaroons</a></li>
+                <li class="each-items"><a href="cupcakes.html"><i class="fa-solid fa-arrow-right"></i>Cupcakes</a></li>
+            </ul>
+        </div>
+
+        <div class="pic-products">
+            <div class="div1">
+                <div class="each-proucts-styling">
+                    <img src="images/Breads/FrenchBaguette_400x400.webp" alt="Brownies" style="height: 300px; width: 300px;">
+                   <h3>French Baguette(1 Pc) </h3>
+                   <p><span>&#8377; 100</span></p>
+                    <button type="button" onclick="addToCart('French Baguette(1 Pc)',100)">Add to cart</button>
+                </div>
+            </div>
+            <div class="div1">
+                <div class="each-proucts-styling">
+                    <img src="images/Breads/WheatSourdoughLoaf02_400x400.webp" alt="Breads" style="height: 300px; width: 300px;">
+                    <h3>WheatSour dough Loaf </h3>
+                    <p><span>&#8377; 120</span></p>
+                   <button type="button" onclick="addToCart('WheatSour dough Loaf',120)">Add to cart</button>
+                </div>
+            </div>
+            <div class="div1">
+                <div class="each-proucts-styling">
+                    <img src="images/Breads/WheatBreadLoaf_45e6b874-d81e-4363-9772-1f91150a34a7_400x400.webp" alt="Croissants & Danishes" style="height: 300px; width: 300px;">
+                    <h3>Wheat Bread Loaf</h3>
+                    <p><span>&#8377; 90</span></p>
+                    <button type="button" onclick="addToCart('Wheat Bread Loaf',90)">Add to cart</button>
+                </div>
+            </div>
+        </div>
+
+    </div>
+
+    <div class="main-third-container-2">
+        <div class="pic-products">
+            <div class="div1">
+                <div class="each-proucts-styling" style="margin-right: 830px;">
+                    <img src="images/Breads/MultigrainLoaf_400x400.webp" alt="Brownies" style="height: 300px; width: 300px; ">
+                   <h3>Multi grain Loaf</h3>
+                   <p><span>&#8377; 100</span></p>
+                    <button type="button" onclick="addToCart('Multi grain Loaf',100)">Add to cart</button>
+                </div>
+            </div>
+           
+        </div>
+
+    </div>
+
+
+    
+    <script src="Cart/script.js"></script>
+   
+</body>
+</html>

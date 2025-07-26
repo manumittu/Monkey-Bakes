@@ -1,0 +1,99 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Croissants</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="cakes.css">
+    <link rel="stylesheet" href="products.css">
+    <link rel="stylesheet" href="each_products.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.1/css/all.min.css">
+    <link rel="stylesheet" href="Cart/styles.css">
+</head>
+<body>
+    <header class="header">
+        <a href="" class="logo"><img src="images/logo.png" alt="Logo"/></a>
+        <nav class="navbar">
+            <a href="/homepage/HomePage.html">home</a>
+            <a href="/Menu/menu.html">menu</a>
+            <a href="/About Us/aboutus.html">about us</a>
+            <a href="/Contact Us/contact.html">contact us</a>
+          
+            
+        </nav>
+        <div class="icons">
+            
+            <div class="cart-icon" id="cart-icon" onclick="redirectToCart()">
+                <i class="fa-solid fa-cart-shopping"></i>
+                <span id="cart-quantity">0</span>
+            </div>
+            <div class="menu-icon">
+                <i class="fa-solid fa-bars"></i>
+            </div>
+        </div>
+        <div class="search-form">
+            <input type="search" name="search" id="search-box" placeholder="searching here...">
+            <label for="search-box" class="fa-solid fa-magnifying-glass"></label>
+        </div>
+    </header>
+
+    <div class="second_container">
+        <h1>CROISSANTS & DANISHES</h1>
+        <p>Start your day right with our pure butter breakfast pastries 
+            and a cup of hot coffee. A true celebration of the French way of life!
+        </p>
+    </div>
+
+    <div class="main-third-container">
+        <div class="products-third-container">
+            <p class="title">Products</p>
+            <ul class="lists">
+                <li class="each-items"><a href="brownies.html"><i class="fa-solid fa-arrow-right"></i>Brownies</a></li>
+                <li class="each-items"><a href="breads.html"><i class="fa-solid fa-arrow-right"></i>Breads</a></li>
+                <li class="each-items"><a href="croissants.html"><i class="fa-solid fa-arrow-right"></i>Croissants & Danishes</a></li>
+                <li class="each-items"><a href="pastries.html"><i class="fa-solid fa-arrow-right"></i>Pastries</a></li>
+                <li class="each-items"><a href="beverages.html"><i class="fa-solid fa-arrow-right"></i>Beverages</a></li>
+                <li class="each-items"><a href="sandwitches.html"><i class="fa-solid fa-arrow-right"></i>Sandwiches & Savories</a></li>
+                <li class="each-items"><a href="cakes.html"><i class="fa-solid fa-arrow-right"></i>Cakes</a></li>
+                <li class="each-items"><a href="cheesecakes.html"><i class="fa-solid fa-arrow-right"></i>Cheesecakes</a></li>
+                <li class="each-items"><a href="tea_cakes.html"><i class="fa-solid fa-arrow-right"></i>Tea Cakes</a></li>
+                <li class="each-items"><a href="mango_specials.html"><i class="fa-solid fa-arrow-right"></i>Mango Specials</a></li>
+                <li class="each-items"><a href="macaroons.html"><i class="fa-solid fa-arrow-right"></i>Macaroons</a></li>
+                <li class="each-items"><a href="cupcakes.html"><i class="fa-solid fa-arrow-right"></i>Cupcakes</a></li>
+            </ul>
+        </div>
+
+        <div class="pic-products">
+            <div class="div1">
+                <div class="each-proucts-styling">
+                    <img src="images/croissants/HIGHRESBlueberryDanish02-Square_400x400.webp" alt="Blueberry Danish" style="height: 300px; width: 300px;">
+                    <h3>Blueberry Danish</h3>
+                    <p><span>&#8377; 85</span></p>
+                    <button type="button" onclick="addToCart('Blueberry Danish',85)">Add to cart</button>
+                </div>
+            </div>
+            <div class="div1">
+                <div class="each-proucts-styling">
+                    <img src="images/croissants/PainAuChocolat02_400x400.webp" alt="Pain Au Chocolate" style="height: 300px; width: 300px;">
+                    <h3>Pain Au Chocolate</h3>
+                    <p><span>&#8377; 105</span></p>
+                   <button type="button" onclick="addToCart('Pain Au Chocolate',105)">Add to cart</button>
+                </div>
+            </div>
+            <div class="div1">
+                <div class="each-proucts-styling">
+                    <img src="images/croissants/Croissant01_400x400.webp" alt="Butter Croissant" style="height: 300px; width: 300px;">
+                    <h3>Butter Croissant</h3>
+                    <p><span>&#8377; 90</span></p>
+                    <button type="button" onclick="addToCart('Butter Croissant',90)">Add to cart</button>
+                </div>
+            </div>
+        </div>
+
+    </div>
+
+    <script src="Cart/script.js"></script>
+   
+</body>
+</html>

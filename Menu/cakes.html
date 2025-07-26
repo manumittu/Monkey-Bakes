@@ -1,0 +1,125 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Cakes</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="cakes.css">
+    <link rel="stylesheet" href="products.css">
+    <link rel="stylesheet" href="each_products.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.1/css/all.min.css">
+    <link rel="stylesheet" href="Cart/styles.css">
+</head>
+<body>
+    <header class="header">
+        <a href="" class="logo"><img src="images/logo.png" alt="Logo"/></a>
+        <nav class="navbar">
+            <a href="/homepage/HomePage.html">home</a>
+            <a href="/Menu/menu.html">menu</a>
+            <a href="/About Us/aboutus.html">about us</a>
+            <a href="/Contact Us/contact.html">contact us</a>
+          
+            
+        </nav>
+        <div class="icons">
+            
+            <div class="cart-icon" id="cart-icon" onclick="redirectToCart()">
+                <i class="fa-solid fa-cart-shopping"></i>
+                <span id="cart-quantity">0</span>
+            </div>
+            
+        </div>
+       
+    </header>
+
+    <div class="second_container">
+        <h1>CAKES</h1>
+        <p>Any celebration, whether a cozy gathering or an extravagent party, 
+            is incomplete without cake! We offer a wide range of handcrafted 
+            speciality cakes that are a treat to the eyes and also the taste buds.
+        </p>
+    </div>
+
+    <div class="main-third-container">
+        <div class="products-third-container">
+            <p class="title">Products</p>
+            <ul class="lists">
+                <li class="each-items"><a href="brownies.html"><i class="fa-solid fa-arrow-right"></i>Brownies</a></li>
+                <li class="each-items"><a href="breads.html"><i class="fa-solid fa-arrow-right"></i>Breads</a></li>
+                <li class="each-items"><a href="croissants.html"><i class="fa-solid fa-arrow-right"></i>Croissants & Danishes</a></li>
+                <li class="each-items"><a href="pastries.html"><i class="fa-solid fa-arrow-right"></i>Pastries</a></li>
+                <li class="each-items"><a href="beverages.html"><i class="fa-solid fa-arrow-right"></i>Beverages</a></li>
+                <li class="each-items"><a href="sandwitches.html"><i class="fa-solid fa-arrow-right"></i>Sandwiches & Savories</a></li>
+                <li class="each-items"><a href="cakes.html"><i class="fa-solid fa-arrow-right"></i>Cakes</a></li>
+                <li class="each-items"><a href="cheesecakes.html"><i class="fa-solid fa-arrow-right"></i>Cheesecakes</a></li>
+                <li class="each-items"><a href="tea_cakes.html"><i class="fa-solid fa-arrow-right"></i>Tea Cakes</a></li>
+                <li class="each-items"><a href="mango_specials.html"><i class="fa-solid fa-arrow-right"></i>Mango Specials</a></li>
+                <li class="each-items"><a href="macaroons.html"><i class="fa-solid fa-arrow-right"></i>Macaroons</a></li>
+                <li class="each-items"><a href="cupcakes.html"><i class="fa-solid fa-arrow-right"></i>Cupcakes</a></li>
+            </ul>
+        </div>
+
+        <div class="pic-products">
+            <div class="div1">
+                <div class="each-proucts-styling">
+                    <img src="images/cakes/cake1.jpg" alt="Chocoholic cake " style="height: 300px; width: 300px;">
+                   <h3>Chocoholic cake </h3>
+                    <p><span>&#8377; 725</span></p>
+                    <button type="button" onclick="addToCart('Chocoholic cake',725)">Add to cart</button>
+                </div>
+            </div>
+            <div class="div1">
+                <div class="each-proucts-styling">
+                    <img src="images/cakes/cake2.jpg" alt="Dark chocolate Mousse Cake" style="height: 300px; width: 300px;">
+                    <h3>Dark chocolate Mousse Cake</h3>
+                    <p><span>&#8377; 625</span></p>
+                   <button type="button" onclick="addToCart('Dark chocolate Mousse Cake',625)">Add to cart</button>
+                </div>
+            </div>
+            <div class="div1">
+                <div class="each-proucts-styling">
+                    <img src="images/cakes/cake3.jpg" alt="Hazelnut Praline Mousse Cake" style="height: 300px; width: 300px;">
+                    <h3>Hazelnut Praline Mousse Cake</h3>
+                    <p><span>&#8377; 800</span></p>
+                    <button type="button" onclick="addToCart('Hazelnut Praline Mousse Cake',800)">Add to cart</button>
+                </div>
+            </div>
+        </div>
+
+    </div>
+
+    <div class="main-third-container-2">
+        <div class="pic-products">
+            <div class="div1">
+                <div class="each-proucts-styling">
+                    <img src="images/cakes/cake4.jpg" alt="Dutch Truffle Cake " style="height: 300px; width: 300px;">
+                   <h3>Dutch Truffle Cake </h3>
+                   <p><span>&#8377; 625</span></p>
+                    <button type="button" onclick="addToCart('Dutch Truffle Cake',625)">Add to cart</button>
+                </div>
+            </div>
+            <div class="div1">
+                <div class="each-proucts-styling">
+                    <img src="images/cakes/cake5.jpg" alt="Bluebrry Cheese Cake" style="height: 300px; width: 300px;">
+                    <h3>Bluebrry Cheese Cake</h3>
+                    <p><span>&#8377; 775</span></p>
+                   <button type="button" onclick="addToCart('Bluebrry Cheese Cake',775)">Add to cart</button>
+                </div>
+            </div>
+            <div class="div1">
+                <div class="each-proucts-styling">
+                    <img src="images/cakes/cake6.jpg" alt="Eggless Dutch Truffle Cake" style="height: 300px; width: 300px;">
+                    <h3>Eggless Dutch Truffle Cake</h3>
+                    <p><span>&#8377; 625</span></p>
+                    <button type="button" onclick="addToCart('Eggless Dutch Truffle Cake',625)">Add to cart</button>
+                </div>
+            </div>
+        </div>
+
+    </div>
+
+    <script src="Cart/script.js"></script>
+   
+</body>
+</html>

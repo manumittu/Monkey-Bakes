@@ -1,0 +1,195 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Sandwiches</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="cakes.css">
+    <link rel="stylesheet" href="products.css">
+    <link rel="stylesheet" href="each_products.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.1/css/all.min.css">
+    <link rel="stylesheet" href="Cart/styles.css">
+</head>
+<body>
+    <header class="header">
+        <a href="" class="logo"><img src="images/logo.png" alt="Logo"/></a>
+        <nav class="navbar">
+            <a href="/homepage/HomePage.html">home</a>
+            <a href="/Menu/menu.html">menu</a>
+            <a href="/About Us/aboutus.html">about us</a>
+            <a href="/Contact Us/contact.html">contact us</a>
+          
+            
+        </nav>
+        <div class="icons">
+          
+            <div class="cart-icon" id="cart-icon" onclick="redirectToCart()">
+                <i class="fa-solid fa-cart-shopping"></i>
+                <span id="cart-quantity">0</span>
+            </div>
+            <div class="menu-icon">
+                <i class="fa-solid fa-bars"></i>
+            </div>
+        </div>
+        <div class="search-form">
+            <input type="search" name="search" id="search-box" placeholder="searching here...">
+            <label for="search-box" class="fa-solid fa-magnifying-glass"></label>
+        </div>
+    </header>
+
+    <div class="second_container">
+        <h1>SANDWICHES & DANISHES</h1>
+        <p>Healthy and wholesome, our freshly prepared sandwiches & 
+            savouries are perfect for a working lunch or a meal-on-the-go. 
+            Pick from a range of vegetarian and non-vegetarian options.
+        </p>
+    </div>
+
+    <div class="main-third-container">
+        <div class="products-third-container">
+            <p class="title">Products</p>
+            <ul class="lists">
+                <li class="each-items"><a href="brownies.html"><i class="fa-solid fa-arrow-right"></i>Brownies</a></li>
+                <li class="each-items"><a href="breads.html"><i class="fa-solid fa-arrow-right"></i>Breads</a></li>
+                <li class="each-items"><a href="croissants.html"><i class="fa-solid fa-arrow-right"></i>Croissants & Danishes</a></li>
+                <li class="each-items"><a href="pastries.html"><i class="fa-solid fa-arrow-right"></i>Pastries</a></li>
+                <li class="each-items"><a href="beverages.html"><i class="fa-solid fa-arrow-right"></i>Beverages</a></li>
+                <li class="each-items"><a href="sandwitches.html"><i class="fa-solid fa-arrow-right"></i>Sandwiches & Savories</a></li>
+                <li class="each-items"><a href="cakes.html"><i class="fa-solid fa-arrow-right"></i>Cakes</a></li>
+                <li class="each-items"><a href="cheesecakes.html"><i class="fa-solid fa-arrow-right"></i>Cheesecakes</a></li>
+                <li class="each-items"><a href="tea_cakes.html"><i class="fa-solid fa-arrow-right"></i>Tea Cakes</a></li>
+                <li class="each-items"><a href="mango_specials.html"><i class="fa-solid fa-arrow-right"></i>Mango Specials</a></li>
+                <li class="each-items"><a href="macaroons.html"><i class="fa-solid fa-arrow-right"></i>Macaroons</a></li>
+                <li class="each-items"><a href="cupcakes.html"><i class="fa-solid fa-arrow-right"></i>Cupcakes</a></li>
+            </ul>
+        </div>
+
+        <div class="pic-products">
+            <div class="div1">
+                <div class="each-proucts-styling">
+                    <img src="images/sandwitches/Spinach_Corn_Cheese_Sandwich_-_Square_400x400.webp" alt="Spinach Corn Cheese Sandwich" style="height: 300px; width: 300px;">
+                   <h3>Spinach Corn Cheese Sandwich </h3>
+                   <p><span>&#8377; 120</span></p>
+                    <button type="button" onclick="addToCart('Spinach Corn Cheese Sandwich',120)">Add to cart</button>
+                </div>
+            </div>
+            <div class="div1">
+                <div class="each-proucts-styling">
+                    <img src="images/sandwitches/Roasted_Chicken_and_Mustard_Sandwich_-_Square_400x400.webp" alt="Roasted Roasted Chicken and Mustard. Sandwich" style="height: 300px; width: 300px;">
+                    <h3>Roasted Roasted Chicken and Mustard Sandwich</h3>
+                    <p><span>&#8377; 150</span></p>
+                   <button type="button" onclick="addToCart('Roasted Roasted Chicken and Mustard Sandwich',150)">Add to cart</button>
+                </div>
+            </div>
+            <div class="div1">
+                <div class="each-proucts-styling">
+                    <img src="images/sandwitches/Chicken_Tikka_Sandwich_-_Square_1_400x400.webp" alt="Chicken Tikka Sandwich" style="height: 300px; width: 300px;">
+                    <h3>Chicken Tikka Sandwich</h3>
+                    <p><span>&#8377; 135</span></p>
+                    <button type="button" onclick="addToCart('Chicken Tikka Sandwich',135)">Add to cart</button>
+                </div>
+            </div>
+        </div>
+
+    </div>
+
+    <div class="main-third-container-2">
+        <div class="pic-products">
+            <div class="div1">
+                <div class="each-proucts-styling">
+                    <img src="images/sandwitches/Chilli_Cheese_Sandwich_-_Square_400x400.webp" alt="Chilli Cheese Sandwich" style="height: 300px; width: 300px;">
+                   <h3>Chilli Cheese Sandwich</h3>
+                    <p><span>&#8377; 110</span></p>
+                    <button type="button" onclick="addToCart('Chilli Cheese Sandwich',110)">Add to cart</button>
+                </div>
+            </div>
+            <div class="div1">
+                <div class="each-proucts-styling">
+                    <img src="images/sandwitches/SpicyPaneerPuffCut-Square_400x400.webp" alt="Spicy Paneer Puff" style="height: 300px; width: 300px;">
+                    <h3>Spicy Paneer Puff</h3>
+                    <p><span>&#8377; 65</span></p>
+                   <button type="button" onclick="addToCart('Spicy Paneer Puff',65)">Add to cart</button>
+                </div>
+            </div>
+            <div class="div1">
+                <div class="each-proucts-styling">
+                    <img src="images/sandwitches/Chicken_CheesePuff-Square_400x400.webp" alt="Chicken & CheesePuff" style="height: 300px; width: 300px;">
+                    <h3>Chicken & CheesePuff</h3>
+                    <p><span>&#8377; 75</span></p>
+                    <button type="button" onclick="addToCart('Chicken & CheesePuff',75)">Add to cart</button>
+                </div>
+            </div>
+        </div>
+
+    </div>
+
+
+    <div class="main-third-container-2">
+        <div class="pic-products">
+            <div class="div1">
+                <div class="each-proucts-styling">
+                    <img src="images/sandwitches/QuicheNonVeg02_400x400.webp" alt="Quiche Non-Veg" style="height: 300px; width: 300px;">
+                   <h3>Quiche Non-Veg</h3>
+                   <p><span>&#8377; 160</span></p>
+                    <button type="button" onclick="addToCart('Quiche Non-Veg',160)">Add to cart</button>
+                </div>
+            </div>
+            <div class="div1">
+                <div class="each-proucts-styling">
+                    <img src="images/sandwitches/QuicheVeg02_400x400.webp" alt="Quiche Veg" style="height: 300px; width: 300px;">
+                    <h3>Quiche Veg </h3>
+                    <p><span>&#8377; 150</span></p>
+                   <button type="button" onclick="addToCart('Quiche Veg',150)">Add to cart</button>
+                </div>
+            </div>
+            <div class="div1">
+                <div class="each-proucts-styling">
+                    <img src="images/sandwitches/BakedVadaPav-Square_400x400.webp" alt="CBaked Wada Pao(1 Pc)" style="height: 300px; width: 300px;">
+                    <h3>Baked Wada Pao(1 Pc)</h3>
+                    <p><span>&#8377; 50</span></p>
+                    <button type="button" onclick="addToCart('Baked Wada Pao(1 Pc)',50)">Add to cart</button>
+                </div>
+            </div>
+        </div>
+
+    </div>
+
+
+    <div class="main-third-container-2">
+        <div class="pic-products">
+            <div class="div1">
+                <div class="each-proucts-styling">
+                    <img src="images/sandwitches/spicy paneer roll.webp" alt="Spicy Paneer Roll (1Pc)" style="height: 300px; width: 300px;">
+                   <h3>Spicy Paneer Roll (1Pc)</h3>
+                   <p><span>&#8377; 60</span></p>
+                    <button type="button" onclick="addToCart('Spicy Paneer Roll (1Pc)',60)">Add to cart</button>
+                </div>
+            </div>
+            <div class="div1">
+                <div class="each-proucts-styling">
+                    <img src="images/sandwitches/ButterChickenBun-Square_400x400.webp" alt="Butter Chicken Bun (1 Pc)" style="height: 300px; width: 300px;">
+                    <h3>Butter Chicken Bun (1 Pc)</h3>
+                    <p><span>&#8377; 70</span></p>
+                   <button type="button" onclick="addToCart('Butter Chicken Bun (1 Pc)',70)">Add to cart</button>
+                </div>
+            </div>
+
+            <div class="div1">
+                <div class="each-proucts-styling">
+                    <img src="images/sandwitches/ChickenKheemaRoll-Square_400x400.webp" alt="Chicken Keema Roll (1 Pc)" style="height: 300px; width: 300px;">
+                    <h3>Chicken Keema Roll (1 Pc)</h3>
+                    <p><span>&#8377; 60</span></p>
+                   <button type="button" onclick="addToCart('Chicken Keema Roll (1 Pc)',60)">Add to cart</button>
+                </div>
+            </div>
+            
+        </div>
+
+    </div>
+
+    <script src="Cart/script.js"></script>
+
+   
+</body>
+</html>

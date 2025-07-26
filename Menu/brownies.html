@@ -1,0 +1,181 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Brownies</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="cakes.css">
+    <link rel="stylesheet" href="products.css">
+    <link rel="stylesheet" href="each_products.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.1/css/all.min.css">
+    <link rel="stylesheet" href="Cart/styles.css">
+</head>
+<body>
+    <header class="header">
+        <a href="" class="logo"><img src="images/logo.png" alt="Logo"/></a>
+        <nav class="navbar">
+            <a href="/homepage/HomePage.html">home</a>
+            <a href="/Menu/menu.html">menu</a>
+            <a href="/About Us/aboutus.html">about us</a>
+            <a href="/Contact Us/contact.html">contact us</a>
+          
+            
+        </nav>
+        <div class="icons">
+            
+            <div class="cart-icon" id="cart-icon" onclick="redirectToCart()">
+                <i class="fa-solid fa-cart-shopping"></i>
+                <span id="cart-quantity">0</span>
+            </div>
+            
+        </div>
+        
+    </header>
+
+    <div class="second_container">
+        <h1>BROWNIES</h1>
+        <p>This is where it all started! Our classic brownies are the reason 
+            Monkey Bakes became a beloved name in every home. Perfectly paired with a
+            scoop of ice cream and a drizzle of chocolate sauce, or simply enjoyed on their own.
+        </p>
+    </div>
+
+    <div class="main-third-container">
+        <div class="products-third-container">
+            <p class="title">Products</p>
+            <ul class="lists">
+                <li class="each-items"><a href="brownies.html"><i class="fa-solid fa-arrow-right"></i>Brownies</a></li>
+                <li class="each-items"><a href="breads.html"><i class="fa-solid fa-arrow-right"></i>Breads</a></li>
+                <li class="each-items"><a href="croissants.html"><i class="fa-solid fa-arrow-right"></i>Croissants & Danishes</a></li>
+                <li class="each-items"><a href="pastries.html"><i class="fa-solid fa-arrow-right"></i>Pastries</a></li>
+                <li class="each-items"><a href="beverages.html"><i class="fa-solid fa-arrow-right"></i>Beverages</a></li>
+                <li class="each-items"><a href="sandwitches.html"><i class="fa-solid fa-arrow-right"></i>Sandwiches & Savories</a></li>
+                <li class="each-items"><a href="cakes.html"><i class="fa-solid fa-arrow-right"></i>Cakes</a></li>
+                <li class="each-items"><a href="cheesecakes.html"><i class="fa-solid fa-arrow-right"></i>Cheesecakes</a></li>
+                <li class="each-items"><a href="tea_cakes.html"><i class="fa-solid fa-arrow-right"></i>Tea Cakes</a></li>
+                <li class="each-items"><a href="mango_specials.html"><i class="fa-solid fa-arrow-right"></i>Mango Specials</a></li>
+                <li class="each-items"><a href="macaroons.html"><i class="fa-solid fa-arrow-right"></i>Macaroons</a></li>
+                <li class="each-items"><a href="cupcakes.html"><i class="fa-solid fa-arrow-right"></i>Cupcakes</a></li>
+            </ul>
+        </div>
+
+        <div class="pic-products">
+            <div class="div1">
+                <div class="each-proucts-styling">
+                    <img src="images/Brownies/ChocoChipBrownie02_400x400.webp" alt="Choco Chip Brownie." style="height: 300px; width: 300px;">
+                   <h3>Choco Chip Brownie. </h3>
+                   <p><span>&#8377; 110</span></p>
+                    <button type="button" onclick="addToCart('Choco Chip Brownie',110)">Add to cart</button>
+                </div>
+            </div>
+            <div class="div1">
+                <div class="each-proucts-styling">
+                    <img src="images/Brownies/CookieBrownie.webp" alt="Cookie Brownie" style="height: 300px; width: 300px;">
+                    <h3>Cookie Brownie</h3>
+                    <p><span>&#8377; 110</span></p>
+                   <button type="button" onclick="addToCart('Cookie Brownie',110)">Add to cart</button>
+                </div>
+            </div>
+            <div class="div1">
+                <div class="each-proucts-styling">
+                    <img src="images/Brownies/EgglessMillionaireBrownie03_ddceed1a-6360-4867-9586-5d0926c9a5db_400x400.webp" alt="Millionaire Brownie" style="height: 300px; width: 300px;">
+                    <h3>Millionaire Brownie</h3>
+                    <p><span>&#8377; 120</span></p>
+                    <button type="button" onclick="addToCart('Millionaire Brownie',120)">Add to cart</button>
+                </div>
+            </div>
+        </div>
+
+    </div>
+
+    <div class="main-third-container-2">
+        <div class="pic-products">
+            <div class="div1">
+                <div class="each-proucts-styling">
+                    <img src="images/Brownies/OverloadBrownie02_400x400.webp" alt="OverloadBrownie " style="height: 300px; width: 300px;">
+                   <h3>OverloadBrownie </h3>
+                   <p><span>&#8377; 150</span></p>
+                    <button type="button" onclick="addToCart('OverloadBrownie',150)">Add to cart</button>
+                </div>
+            </div>
+            <div class="div1">
+                <div class="each-proucts-styling">
+                    <img src="images/Brownies/WalnutBrownie03_2ae4ef93-08d2-4bac-bbd4-8e7481c23ec4_400x400.webp" alt="Walnut Brownie" style="height: 300px; width: 300px;">
+                    <h3>Walnut Brownie</h3>
+                    <p><span>&#8377; 110</span></p>
+                   <button type="button" onclick="addToCart('Walnut Brownie',110)">Add to cart</button>
+                </div>
+            </div>
+            <div class="div1">
+                <div class="each-proucts-styling">
+                    <img src="images/Brownies/eggless choco chip brownie.webp" alt="Eggless Choco Chip Brownie" style="height: 300px; width: 300px;">
+                    <h3>Eggless Choco Chip Brownie</h3>
+                    <p><span>&#8377; 100</span></p>
+                    <button type="button" onclick="addToCart('Eggless Choco Chip Brownie',100)">Add to cart</button>
+                </div>
+            </div>
+        </div>
+
+    </div>
+
+
+    <div class="main-third-container-2">
+        <div class="pic-products">
+            <div class="div1">
+                <div class="each-proucts-styling">
+                    <img src="images/Brownies/OutrageousChocolateBrownie_400x400.webp" alt="Eggless Outrageous Brownie" style="height: 300px; width: 300px;">
+                   <h3>Eggless Outrageous Brownie </h3>
+                   <p><span>&#8377; 120</span></p>
+                    <button type="button" onclick="addToCart('Eggless Outrageous Brownie',120)">Add to cart</button>
+                </div>
+            </div>
+            <div class="div1">
+                <div class="each-proucts-styling">
+                    <img src="images/Brownies/CookieBrownie.webp" alt="Eggless Cookie Brownie" style="height: 300px; width: 300px;">
+                    <h3>Eggless Cookie Brownie</h3>
+                    <p><span>&#8377; 110</span></p>
+                   <button type="button" onclick="addToCart('Eggless Cookie Brownie',110)">Add to cart</button>
+                </div>
+            </div>
+            <div class="div1">
+                <div class="each-proucts-styling">
+                    <img src="images/Brownies/WalnutBrownie_400x400.webp" alt="Eggless Walnut Brownie" style="height: 300px; width: 300px;">
+                    <h3>Eggless Walnut Brownie</h3>
+                    <p><span>&#8377; 110</span></p>
+                    <button type="button" onclick="addToCart('Eggless Walnut Brownie',110)">Add to cart</button>
+                </div>
+            </div>
+        </div>
+
+    </div>
+
+
+    <div class="main-third-container-2">
+        <div class="pic-products">
+            <div class="div1">
+                <div class="each-proucts-styling">
+                    <img src="images/Brownies/AssortedBrownieBox6_400x400.webp" alt="Assorted Brownie Box-6pcs" style="height: 300px; width: 300px;">
+                   <h3>Assorted Brownie Box-6pcs</h3>
+                   <p><span>&#8377; 660</span></p>
+                    <button type="button" onclick="addToCart('Assorted Brownie Box-6pcs',660)">Add to cart</button>
+                </div>
+            </div>
+            <div class="div1">
+                <div class="each-proucts-styling">
+                    <img src="images/Brownies/AssortedBrownieBox6eggless_016a9541-5228-406c-97d9-293feacf9860_400x400.webp" alt="Assorted Eggless Brownie Box-6pcs" style="height: 300px; width: 300px;">
+                    <h3>Assorted Eggless Brownie Box-6pcs</h3>
+                    <p><span>&#8377; 600</span></p>
+                   <button type="button" onclick="addToCart('Assorted Eggless Brownie Box-6pcs',600)">Add to cart</button>
+                </div>
+            </div>
+            
+        </div>
+
+    </div>
+
+
+    <script src="Cart/script.js"></script>
+   
+</body>
+</html>

@@ -1,0 +1,164 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Mango Specials</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="cakes.css">
+    <link rel="stylesheet" href="products.css">
+    <link rel="stylesheet" href="each_products.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.1/css/all.min.css">
+    <link rel="stylesheet" href="Cart/styles.css">
+</head>
+<body>
+    <header class="header">
+        <a href="" class="logo"><img src="images/logo.png" alt="Logo"/></a>
+        <nav class="navbar">
+            <a href="/homepage/HomePage.html">home</a>
+            <a href="/Menu/menu.html">menu</a>
+            <a href="/About Us/aboutus.html">about us</a>
+            <a href="/Contact Us/contact.html">contact us</a>
+          
+            
+        </nav>
+        <div class="icons">
+           
+            <div class="cart-icon" id="cart-icon" onclick="redirectToCart()">
+                <i class="fa-solid fa-cart-shopping"></i>
+                <span id="cart-quantity">0</span>
+            </div>
+            <div class="menu-icon">
+                <i class="fa-solid fa-bars"></i>
+            </div>
+        </div>
+        <div class="search-form">
+            <input type="search" name="search" id="search-box" placeholder="searching here...">
+            <label for="search-box" class="fa-solid fa-magnifying-glass"></label>
+        </div>
+    </header>
+
+    <div class="second_container">
+        <h1>Mango Specials</h1>
+        <p>The mango spectacles, a riot of sunshine yellow and fiery orange, 
+            mirrored the vibrant spirit dancing in bakers eyes.
+        </p>
+    </div>
+
+    <div class="main-third-container">
+        <div class="products-third-container">
+            <p class="title">Products</p>
+            <ul class="lists">
+                <li class="each-items"><a href="brownies.html"><i class="fa-solid fa-arrow-right"></i>Brownies</a></li>
+                <li class="each-items"><a href="breads.html"><i class="fa-solid fa-arrow-right"></i>Breads</a></li>
+                <li class="each-items"><a href="croissants.html"><i class="fa-solid fa-arrow-right"></i>Croissants & Danishes</a></li>
+                <li class="each-items"><a href="pastries.html"><i class="fa-solid fa-arrow-right"></i>Pastries</a></li>
+                <li class="each-items"><a href="beverages.html"><i class="fa-solid fa-arrow-right"></i>Beverages</a></li>
+                <li class="each-items"><a href="sandwitches.html"><i class="fa-solid fa-arrow-right"></i>Sandwiches & Savories</a></li>
+                <li class="each-items"><a href="cakes.html"><i class="fa-solid fa-arrow-right"></i>Cakes</a></li>
+                <li class="each-items"><a href="cheesecakes.html"><i class="fa-solid fa-arrow-right"></i>Cheesecakes</a></li>
+                <li class="each-items"><a href="tea_cakes.html"><i class="fa-solid fa-arrow-right"></i>Tea Cakes</a></li>
+                <li class="each-items"><a href="mango_specials.html"><i class="fa-solid fa-arrow-right"></i>Mango Specials</a></li>
+                <li class="each-items"><a href="macaroons.html"><i class="fa-solid fa-arrow-right"></i>Macaroons</a></li>
+                <li class="each-items"><a href="cupcakes.html"><i class="fa-solid fa-arrow-right"></i>Cupcakes</a></li>
+            </ul>
+        </div>
+
+        <div class="pic-products">
+            <div class="div1">
+                <div class="each-proucts-styling">
+                    <img src="images/mango specials.webp" alt="Brownies" style="height: 300px; width: 300px;">
+                   <h3>Fresh Mango Tart</h3>
+                   <p><span>&#8377; 150</span></p>
+                    <button type="button" onclick="addToCart('Fresh Mango Tart',150)">Add to cart</button>
+                </div>
+            </div>
+            <div class="div1">
+                <div class="each-proucts-styling">
+                    <img src="images/mango specials/Mangotriflepudding_400x400.webp" alt="Breads" style="height: 300px; width: 300px;">
+                    <h3>Mango Triffle Pudding</h3>
+                    <p><span>&#8377; 200</span></p>
+                   <button type="button" onclick="addToCart('Mango Triffle Pudding',200)">Add to cart</button>
+                </div>
+            </div>
+            <div class="div1">
+                <div class="each-proucts-styling">
+                    <img src="images/mango specials/Bakedyogurt_mangocup_400x400.webp" alt="Croissants & Danishes" style="height: 300px; width: 300px;">
+                    <h3>Mango & Baked Yougurt Cup</h3>
+                    <p><span>&#8377; 175</span></p>
+                    <button type="button" onclick="addToCart('Mango & Baked Yougurt Cup',175)">Add to cart</button>
+                </div>
+            </div>
+        </div>
+
+    </div>
+
+    <div class="main-third-container-2">
+        <div class="pic-products">
+            <div class="div1">
+                <div class="each-proucts-styling">
+                    <img src="images/mango specials/Mango_custardcake_f4b2c3be-cbbd-4ce7-93eb-6c714d243229_400x400.webp" alt="Brownies" style="height: 300px; width: 300px;">
+                   <h3>Mango And Custard Cake</h3>
+                   <p><span>&#8377; 650</span></p>
+                    <button type="button" onclick="addToCart('Mango And Custard Cake',650)">Add to cart</button>
+                </div>
+            </div>
+            <div class="div1">
+                <div class="each-proucts-styling">
+                    <img src="images/mango specials/Mango_custardcake_f4b2c3be-cbbd-4ce7-93eb-6c714d243229_400x400.webp" alt="Breads" style="height: 300px; width: 300px;">
+                    <h3>Eggless Mango And Custard Cake</h3>
+                    <p><span>&#8377; 655</span></p>
+                   <button type="button" onclick="addToCart('Eggless Mango And Custard Cake',655)">Add to cart</button>
+                </div>
+            </div>
+            <div class="div1">
+                <div class="each-proucts-styling">
+                    <img src="images/mango specials/Mango_custardpastry_400x400.webp" alt="Croissants & Danishes" style="height: 300px; width: 300px;">
+                    <h3>Mango And Custard Pastry</h3>
+                    <p><span>&#8377; 150</span></p>
+                    <button type="button" onclick="addToCart('Mango And Custard Pastry',150)">Add to cart</button>
+                </div>
+            </div>
+        </div>
+
+        </div>
+
+
+        <div class="main-third-container-2">
+            <div class="pic-products">
+                <div class="div1">
+                    <div class="each-proucts-styling">
+                        <img src="images/mango specials/Mango_custardpastry_fdc11bc6-f017-4a5a-a143-0eff23b7d834_400x400.webp" alt="Brownies" style="height: 300px; width: 300px;">
+                       <h3> Eggless Mango & Custard Pastry
+                       </h3>
+                       <p><span>&#8377; 150</span></p>
+                        <button type="button" onclick="addToCart('Eggless Mango & Custard Pastry',150)">Add to cart</button>
+                    </div>
+                </div>
+                <div class="div1">
+                    <div class="each-proucts-styling">
+                        <img src="images/mango specials/Mangocheesecake_400x400.webp" alt="Breads" style="height: 300px; width: 300px;">
+                        <h3>Eggless Mango Baked Cheese Cake</h3>
+                        <p><span>&#8377; 775</span></p>
+                       <button type="button" onclick="addToCart('Eggless Mango Baked Cheese Cake',775)">Add to cart</button>
+                    </div>
+                </div>
+                <div class="div1">
+                    <div class="each-proucts-styling">
+                        <img src="images/mango specials/Mangocheesecakejar_400x400.webp" alt="Croissants & Danishes" style="height: 300px; width: 300px;">
+                        <h3>Mango Cheesecake Jar</h3>
+                        <p><span>&#8377; 250</span></p>
+                        <button type="button" onclick="addToCart('Mango Cheesecake Jar',250)">Add to cart</button>
+                    </div>
+                </div>
+            </div>
+    
+
+
+            <script src="Cart/script.js"></script>
+   
+
+
+   
+</body>
+</html>
